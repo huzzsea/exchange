@@ -60,7 +60,7 @@
         <hibernate-validator.version>6.1.5.Final</hibernate-validator.version>
         <el.version>2.2.4</el.version>
         <hibernate-jpa-api.version>1.0.0.Final</hibernate-jpa-api.version>
-        <hibernate-entitymanager.version>5.1.0.Final</hibernate-entitymanager.version>
+        <hibernate-entitymanager.version>5.6.15.Final</hibernate-entitymanager.version>
         <mysql-connector-java.version>8.0.16</mysql-connector-java.version>
         <druid.version>1.1.5</druid.version>
         <jta.version>1.1</jta.version>
@@ -130,11 +130,11 @@
         </dependency>
 
         <!-- 邮箱验证-->
-        <dependency >
-            <groupId >com.sun.mail </groupId >
-            <artifactId >javax.mail </artifactId >
-            <version >1.5.4 </version >
-        </dependency >
+        <dependency>
+            <groupId>com.sun.mail </groupId>
+            <artifactId>javax.mail </artifactId>
+            <version>1.5.4 </version>
+        </dependency>
 
         <!-- 短信验证-->
         <dependency>
